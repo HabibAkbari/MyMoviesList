@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RDf-aq-pzF">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movies List-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backGroundLanuchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="WZU-5z-Lt3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017 Habib Akbari. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="bvW-qN-gLX">
+                                <rect key="frame" x="16" y="400" width="289.5" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bvW-qN-gLX" secondAttribute="height" multiplier="289:15" id="FqG-AG-cge"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99215686270000003" green="0.83137254900000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tabBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="jRi-m0-gS2">
+                                <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Movies List" image="list-32" id="drB-FW-uk1"/>
+                                    <tabBarItem title="Add to list" image="plus-button-32" id="mS6-3h-FqJ"/>
+                                    <tabBarItem title="BackUp" image="backup-32" id="iz2-q5-PnU"/>
+                                    <tabBarItem title="Chart" image="bar-chart-32-2" id="6oa-sb-NE6"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="bvW-qN-gLX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2yz-i0-jXW"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8ME-RE-MGL"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Bd7-Zb-3PS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bvW-qN-gLX" secondAttribute="bottom" constant="65" id="Bnz-DG-Ioz"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C98-pS-lpq"/>
+                            <constraint firstItem="jRi-m0-gS2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DlJ-Yq-YQO"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="N8Z-fk-AxS"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OwS-wm-LIq"/>
+                            <constraint firstItem="jRi-m0-gS2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ROw-Id-3YZ"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UkR-1P-IX1"/>
+                            <constraint firstItem="jRi-m0-gS2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bYm-ED-KU5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bvW-qN-gLX" secondAttribute="trailing" constant="14.5" id="cWe-uJ-vJl"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nwe-9s-NDa"/>
+                            <constraint firstItem="WZU-5z-Lt3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pcN-KN-DDn"/>
+                            <constraint firstItem="jRi-m0-gS2" firstAttribute="top" secondItem="bvW-qN-gLX" secondAttribute="bottom" constant="16" id="v1D-kM-h3d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Movies List" id="cmd-WK-I3n">
+                        <barButtonItem key="leftBarButtonItem" image="fillter_yellow_24" id="qyj-Tw-yiL">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="yPH-dx-mzW">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1500" y="374"/>
+        </scene>
+        <!--Movies List-->
+        <scene sceneID="REA-mi-ZZ8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RDf-aq-pzF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Movies List" image="list(32)" id="CcQ-Mj-pvL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CVp-LP-XxP">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="zkV-7p-KsT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RLd-zS-hIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="733" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backGroundLanuchScreen" width="930" height="1617"/>
+        <image name="backup-32" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="bar-chart-32-2" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="fillter_yellow_24" width="24" height="24"/>
+        <image name="list(32)" width="32" height="32"/>
+        <image name="list-32" width="25.600000381469727" height="25.600000381469727"/>
+        <image name="plus-button-32" width="25.600000381469727" height="25.600000381469727"/>
+    </resources>
+</document>

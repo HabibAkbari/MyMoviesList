@@ -1,0 +1,499 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SearchToIMDBViewController"
+provides-nominal:
+- "14My_Movies_List26SearchToIMDBViewControllerC"
+provides-member:
+- ["14My_Movies_List26SearchToIMDBViewControllerC", ""]
+provides-dynamic-lookup:
+- "activityIndicatorView"
+- "didReceiveMemoryWarning"
+- "searchBar"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- !private "API_KEY"
+- !private "Alamofire"
+- "BooleanLiteralType"
+- "MovieList"
+- "SearchToIMDBViewController"
+- "String"
+- !private "StringLiteralType"
+- "UIActivityIndicatorView"
+- "UISearchBar"
+- "UITableView"
+- "UIViewController"
+- !private "URL"
+- !private "URL_SEARCHMOVIE_BASE"
+- !private "UnicodeScalarType"
+depends-member:
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeAll"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["s7CVarArgP", "API_KEY"]
+- !private ["s7CVarArgP", "Alamofire"]
+- ["s7CVarArgP", "MovieList"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URL_SEARCHMOVIE_BASE"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "moviesSearchImdb"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "API_KEY"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- ["s28CustomDebugStringConvertibleP", "MovieList"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URL_SEARCHMOVIE_BASE"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "moviesSearchImdb"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "API_KEY"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- ["s23CustomStringConvertibleP", "MovieList"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URL_SEARCHMOVIE_BASE"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "moviesSearchImdb"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeAll"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "API_KEY"]
+- !private ["s9EquatableP", "Alamofire"]
+- ["s9EquatableP", "MovieList"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "URL_SEARCHMOVIE_BASE"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "moviesSearchImdb"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "removeAll"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s8HashableP", "API_KEY"]
+- !private ["s8HashableP", "Alamofire"]
+- ["s8HashableP", "MovieList"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "URL_SEARCHMOVIE_BASE"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "moviesSearchImdb"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "removeAll"]
+- !private ["So8NSCodingP", "API_KEY"]
+- !private ["So8NSCodingP", "Alamofire"]
+- ["So8NSCodingP", "MovieList"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "URL_SEARCHMOVIE_BASE"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "moviesSearchImdb"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So26NSExtensionRequestHandlingP", "API_KEY"]
+- !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
+- ["So26NSExtensionRequestHandlingP", "MovieList"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "URL_SEARCHMOVIE_BASE"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "moviesSearchImdb"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So8NSObjectC", "API_KEY"]
+- !private ["So8NSObjectC", "Alamofire"]
+- ["So8NSObjectC", "MovieList"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIActivityIndicatorView"]
+- ["So8NSObjectC", "UISearchBar"]
+- ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URL_SEARCHMOVIE_BASE"]
+- ["So8NSObjectC", "activityIndicatorView"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "inSearchMode"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "moviesSearchImdb"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- ["So8NSObjectC", "searchBar"]
+- ["So8NSObjectC", "searchTitle"]
+- ["So8NSObjectC", "tableView"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "API_KEY"]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- ["So16NSObjectProtocolP", "MovieList"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "URL_SEARCHMOVIE_BASE"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "moviesSearchImdb"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "removeAll"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeAll"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["14My_Movies_List26SearchToIMDBViewControllerC", "API_KEY"]
+- !private ["14My_Movies_List26SearchToIMDBViewControllerC", "Alamofire"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "MovieList"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "String"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "UIActivityIndicatorView"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "UISearchBar"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "UITableView"]
+- !private ["14My_Movies_List26SearchToIMDBViewControllerC", "URL"]
+- !private ["14My_Movies_List26SearchToIMDBViewControllerC", "URL_SEARCHMOVIE_BASE"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "activityIndicatorView"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "deinit"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "didReceiveMemoryWarning"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "inSearchMode"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "init"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "moviesSearchImdb"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "searchBar"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "searchTitle"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "tableView"]
+- ["14My_Movies_List26SearchToIMDBViewControllerC", "viewDidLoad"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- !private ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "API_KEY"]
+- !private ["So21UIAppearanceContainerP", "Alamofire"]
+- ["So21UIAppearanceContainerP", "MovieList"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "URL_SEARCHMOVIE_BASE"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "moviesSearchImdb"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "API_KEY"]
+- !private ["So18UIContentContainerP", "Alamofire"]
+- ["So18UIContentContainerP", "MovieList"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "URL_SEARCHMOVIE_BASE"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "moviesSearchImdb"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "API_KEY"]
+- !private ["So18UIFocusEnvironmentP", "Alamofire"]
+- ["So18UIFocusEnvironmentP", "MovieList"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "URL_SEARCHMOVIE_BASE"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "moviesSearchImdb"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "API_KEY"]
+- !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
+- ["So30UIPasteConfigurationSupportingP", "MovieList"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL_SEARCHMOVIE_BASE"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "moviesSearchImdb"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "API_KEY"]
+- !private ["So11UIResponderC", "Alamofire"]
+- ["So11UIResponderC", "MovieList"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIActivityIndicatorView"]
+- ["So11UIResponderC", "UISearchBar"]
+- ["So11UIResponderC", "UITableView"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URL_SEARCHMOVIE_BASE"]
+- ["So11UIResponderC", "activityIndicatorView"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "inSearchMode"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "moviesSearchImdb"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "searchBar"]
+- ["So11UIResponderC", "searchTitle"]
+- ["So11UIResponderC", "tableView"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "API_KEY"]
+- !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
+- ["So30UIResponderStandardEditActionsP", "MovieList"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "URL_SEARCHMOVIE_BASE"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "moviesSearchImdb"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So16UIStateRestoringP", "API_KEY"]
+- !private ["So16UIStateRestoringP", "Alamofire"]
+- ["So16UIStateRestoringP", "MovieList"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "URL_SEARCHMOVIE_BASE"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "moviesSearchImdb"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "API_KEY"]
+- !private ["So18UITraitEnvironmentP", "Alamofire"]
+- ["So18UITraitEnvironmentP", "MovieList"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "URL_SEARCHMOVIE_BASE"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "moviesSearchImdb"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So16UIViewControllerC", "API_KEY"]
+- !private ["So16UIViewControllerC", "Alamofire"]
+- ["So16UIViewControllerC", "MovieList"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIActivityIndicatorView"]
+- ["So16UIViewControllerC", "UISearchBar"]
+- ["So16UIViewControllerC", "UITableView"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URL_SEARCHMOVIE_BASE"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "activityIndicatorView"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "inSearchMode"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "moviesSearchImdb"]
+- ["So16UIViewControllerC", "searchBar"]
+- ["So16UIViewControllerC", "searchTitle"]
+- ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation3URLV", "init"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "API_KEY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MovieList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL_SEARCHMOVIE_BASE"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moviesSearchImdb"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "14My_Movies_List26SearchToIMDBViewControllerC"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/habibakbari/Documents/Programing/App/Xcode 3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a858f954b5f46341cfbe1bbc76987381"
